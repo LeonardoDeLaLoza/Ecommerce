@@ -1,0 +1,81 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;/* 1 REM= 10px*/;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+body {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.6rem;
+}
+/**Globales**/
+h1,h2,h3{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+h3{
+    font-size: 4rem;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto ;
+}
+img {
+    max-width: 100%;
+    display:block;
+}
+
+/**header  navegacion**/
+
+.nombre-sitio {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    font-size: 4rem;
+}
+.contenedor-navegacion {
+    border-top:.1rem solid #e1e1e1
+}
+.nombre-sitio span {
+    color: #037bc0;
+}
+.nav-principal {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.hero {
+    background-image: url(../img/Imagenes\ Ecommerce/principal.jpg);
+    height: 55rem;
+}
+/*categorias**/
+.categoria h2 {
+    text-align: center;
+}
+.categoria a {
+    text-align: center;
+    display: block;
+    padding: 2rem;
+    font-size: 2rem;
+
+}
+.categoria a:hover {
+    background-color: #037bc0;
+    color:white;
+
+    border-bottom-right-radius: 1rem;
+}
+.listado-categorias {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2rem
+}
