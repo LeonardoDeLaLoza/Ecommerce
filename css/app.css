@@ -17,6 +17,7 @@ h1,h2,h3{
     font-weight: 700;
     font-style: normal;
 }
+h1
 h3{
     font-size: 4rem;
 }
@@ -81,3 +82,4 @@ img {
     gap:2rem
 }
 /*Esto es un ejemplo de un comentario en css para git*/
+/*Hola esta es una prueba*/
